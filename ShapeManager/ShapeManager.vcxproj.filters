@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Utilis">
+      <UniqueIdentifier>{cdba9999-c0f2-4153-9520-91b7620a54d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shapes">
+      <UniqueIdentifier>{e6357a44-6a74-4291-a73b-2af9646b539d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{ff227371-cc63-430e-8d0a-bb9a562dab84}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Menu.h">
+      <Filter>Utilis</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawUtility.h">
+      <Filter>Utilis</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h" />
+    <ClInclude Include="MainScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene1.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene2.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Utilis</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Utilis</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="DrawUtility.cpp">
+      <Filter>Utilis</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene1.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene2.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
