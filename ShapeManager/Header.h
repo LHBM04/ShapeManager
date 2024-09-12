@@ -17,7 +17,7 @@
 
 // Utilities
 #include "Singleton.h"
-#include "DrawUtility.h"
+#include "Console.h"
 #include "MathUtility.h"
 #include "Menu.h"
 

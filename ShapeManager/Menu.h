@@ -3,7 +3,7 @@
 /// <summary>
 /// 메뉴.
 /// </summary>
-class Menu final {
+class Menu {
 private:
 	/// <summary>
 	/// 메뉴 이름.

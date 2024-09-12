@@ -16,12 +16,12 @@ Point::~Point() {
 }
 
 bool Point::operator==(const Point& _other) {
-	return MathUtility::isEqule(this->m_x, _other.m_x) && MathUtility::isEqule(this->m_y, _other.m_y);
+	return MathUtility::Equals(this->m_x, _other.m_x) && MathUtility::Equals(this->m_y, _other.m_y);
 }
 
 bool Point::operator!=(const Point& _other)
 {
-	return !(MathUtility::isEqule(this->m_x, _other.m_x) && MathUtility::isEqule(this->m_y, _other.m_y));
+	return !(MathUtility::Equals(this->m_x, _other.m_x) && MathUtility::Equals(this->m_y, _other.m_y));
 }
 
 const double& Point::GetX() const {

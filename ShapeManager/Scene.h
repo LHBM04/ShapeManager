@@ -50,6 +50,12 @@ public:
 	const std::string GetDescription() const;
 
 	/// <summary>
+	/// 해당 Scene의 Load 여부를 가져옵니다.
+	/// </summary>
+	/// <returns></returns>
+	const bool isLoaded() const;
+
+	/// <summary>
 	/// Scene에 진입합니다.
 	/// </summary>
 	void Enter();

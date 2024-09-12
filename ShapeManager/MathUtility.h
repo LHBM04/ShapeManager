@@ -12,7 +12,7 @@ public:
 	/// <param name="_lhs">오른쪽 값.</param>
 	/// <param name="_rhs">왼쪽 값.</param>
 	/// <returns>같은지에 대한 여부.</returns>
-	static bool isEqule(const double _lhs, const double _rhs) {
+	static bool Equals(const double _lhs, const double _rhs) {
 		return std::abs(_lhs - _rhs) < epsilon;
 	}
 
@@ -22,7 +22,7 @@ public:
 	/// <param name="_lhs">오른쪽 값.</param>
 	/// <param name="_rhs">왼쪽 값.</param>
 	/// <returns>같은지에 대한 여부.</returns>
-	static bool isEqule(const float _lhs, const float _rhs) {
+	static bool Equals(const float _lhs, const float _rhs) {
 		return std::abs(_lhs - _rhs) < static_cast<float>(epsilon);
 	}
 };

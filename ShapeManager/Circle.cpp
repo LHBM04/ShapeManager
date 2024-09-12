@@ -17,5 +17,5 @@ const double Circle::GetRadius() const {
 }
 
 void Circle::Display() const {
-	DrawUtility::WriteLine(std::format("중심: ({:.2f}, {:.2f}), 반지름: {:.2f}", this->m_center.GetX(), this->m_center.GetY(), this->GetRadius()));
+	Console::WriteLine(std::format("중심: ({:.2f}, {:.2f}), 반지름: {:.2f}", this->m_center.GetX(), this->m_center.GetY(), this->GetRadius()));
 }

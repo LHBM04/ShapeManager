@@ -28,19 +28,19 @@ const size_t MenuSelector::GetCount() const {
 
 void MenuSelector::Display() const {
 	for (int index = 0; index < this->m_count; ++index) {
-		DrawUtility::WriteLine(std::format("[{:d}]. {:s}", index + 1, this->m_menus[index]->GetName()));
+		Console::WriteLine(std::format("[{:d}]. {:s}", index + 1, this->m_menus[index]->GetName()));
 	}
 }
 
 void MenuSelector::Select() const {
 	unsigned short action = 0;
-	DrawUtility::Write(MenuSelector::SELECT_MENU_MESSAGE);
+	Console::Write(MenuSelector::SELECT_MENU_MESSAGE);
 	while (true) {
 		std::cin >> action;
-		DrawUtility::ClearBufferCPP();
+		Console::ClearBufferCPP();
 
 		if (action < 1 || action > this->m_count) {
-			DrawUtility::Write(MenuSelector::SELECT_RIGHT_MENU_MESSAGE);
+			Console::Write(MenuSelector::SELECT_RIGHT_MENU_MESSAGE);
 			continue;
 		} else {
 			if (this->m_menus[(action - 1)] != nullptr) {

@@ -44,22 +44,22 @@ void ShapeManager::DestroyShape() {
 
 	unsigned int index = 0;
 	while (true) {
-		DrawUtility::Write("삭제할 도형의 인덱스 번호를 입력해주세요. ==> ");
+		Console::Write("삭제할 도형의 인덱스 번호를 입력해주세요. ==> ");
 		std::cin >> index;
-		DrawUtility::ClearBufferCPP();
+		Console::ClearBufferCPP();
 
 		if (index <= 0 || index > this->m_count) {
-			DrawUtility::WriteLine("올바른 인덱스가 아닙니다!");
+			Console::WriteLine("올바른 인덱스가 아닙니다!");
 			continue;
 		}
 
 		if (this->m_shapes[(index - 1)] != nullptr) {
 			delete this->m_shapes[(index - 1)];
-			DrawUtility::Write("해당 도형이 삭제되었습니다! 계속하려면 아무 키나 눌러주세요...");
+			Console::Write("해당 도형이 삭제되었습니다! 계속하려면 아무 키나 눌러주세요...");
 			std::cin.get();
 			return;
 		} else {
-			DrawUtility::WriteLine("이미 삭제된 도형입니다.");
+			Console::WriteLine("이미 삭제된 도형입니다.");
 			continue;
 		}
 	}
@@ -93,6 +93,6 @@ const std::string ShapeManager::GetShapeType(const Shape*& _shape) {
 
 void ShapeManager::Display() {
 	for (int index = 0; index < this->m_count; ++index) {
-		DrawUtility::WriteLine(std::format("[{:s}]", GetShapeType(this->m_shapes[index])));
+		Console::WriteLine(std::format("[{:s}]", GetShapeType(this->m_shapes[index])));
 	}
 }

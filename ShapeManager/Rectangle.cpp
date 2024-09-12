@@ -31,6 +31,6 @@ const double Rectangle::GetArea() const {
 }
 
 void Rectangle::Display() const {
-	DrawUtility::WriteLine(std::format("아래 대각선: ({:f} {:f}), 윗 대각선: ({:f} {:f})", this->m_vertex1.GetX(), this->m_vertex1.GetY(),
+	Console::WriteLine(std::format("아래 대각선: ({:f} {:f}), 윗 대각선: ({:f} {:f})", this->m_vertex1.GetX(), this->m_vertex1.GetY(),
 																						this->m_vertex3.GetX(), this->m_vertex3.GetY()));
 }

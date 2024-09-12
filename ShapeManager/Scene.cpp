@@ -20,14 +20,18 @@ const std::string Scene::GetDescription() const {
 	return this->m_description;
 }
 
+const bool Scene::isLoaded() const {
+	return this->m_isLoaded;
+}
+
 void Scene::Enter() {
 	this->m_isLoaded = true;
 
 	// Update Routine.
 	while (this->m_isLoaded) {
-		DrawUtility::ClearScreen();
-		DrawUtility::WriteLine(std::format("[{:s}]", this->GetName()));
-		DrawUtility::WriteLine(std::format("({:s})", this->GetDescription()));
+		Console::ClearScreen();
+		Console::WriteLine(std::format("[{:s}]", this->GetName()));
+		Console::WriteLine(std::format("({:s})", this->GetDescription()));
 		this->Update();
 	}
 }

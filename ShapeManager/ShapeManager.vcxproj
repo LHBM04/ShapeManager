@@ -132,7 +132,7 @@
     <ClInclude Include="CreateScene.h" />
     <ClInclude Include="DestoryScene.h" />
     <ClInclude Include="DisplayScene.h" />
-    <ClInclude Include="DrawUtility.h" />
+    <ClInclude Include="Console.h" />
     <ClInclude Include="Header.h" />
     <ClInclude Include="Line.h" />
     <ClInclude Include="MainScene.h" />
@@ -145,6 +145,7 @@
     <ClInclude Include="Shape.h" />
     <ClInclude Include="ShapeGenerator.h" />
     <ClInclude Include="ShapeManager.h" />
+    <ClInclude Include="TaskWaitModule.h" />
     <ClInclude Include="Triangle.h" />
     <ClInclude Include="Singleton.h" />
   </ItemGroup>
@@ -153,7 +154,7 @@
     <ClCompile Include="CreateScene.cpp" />
     <ClCompile Include="DestoryScene.cpp" />
     <ClCompile Include="DisplayScene.cpp" />
-    <ClCompile Include="DrawUtility.cpp" />
+    <ClCompile Include="Console.cpp" />
     <ClCompile Include="Line.cpp" />
     <ClCompile Include="Main.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
@@ -167,6 +168,7 @@
     <ClCompile Include="SceneManager.cpp" />
     <ClCompile Include="ShapeGenerator.cpp" />
     <ClCompile Include="ShapeManager.cpp" />
+    <ClCompile Include="TaskWaitModule.cpp" />
     <ClCompile Include="Triangle.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

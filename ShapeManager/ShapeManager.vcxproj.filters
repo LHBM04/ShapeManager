@@ -15,7 +15,7 @@
     <ClInclude Include="Menu.h">
       <Filter>Utilis</Filter>
     </ClInclude>
-    <ClInclude Include="DrawUtility.h">
+    <ClInclude Include="Console.h">
       <Filter>Utilis</Filter>
     </ClInclude>
     <ClInclude Include="Shape.h">
@@ -67,13 +67,14 @@
     <ClInclude Include="DisplayScene.h">
       <Filter>Scenes</Filter>
     </ClInclude>
+    <ClInclude Include="TaskWaitModule.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Menu.cpp">
       <Filter>Utilis</Filter>
     </ClCompile>
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="DrawUtility.cpp">
+    <ClCompile Include="Console.cpp">
       <Filter>Utilis</Filter>
     </ClCompile>
     <ClCompile Include="Point.cpp">
@@ -118,5 +119,6 @@
     <ClCompile Include="DisplayScene.cpp">
       <Filter>Scenes</Filter>
     </ClCompile>
+    <ClCompile Include="TaskWaitModule.cpp" />
   </ItemGroup>
 </Project>
