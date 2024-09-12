@@ -30,3 +30,16 @@
 *.exe
 *.out
 *.app
+
+*.ipch
+*.dll
+*.db
+*.log
+*.tlog
+*.command
+*.ilk
+*.idb
+*.pdb
+*.db-wal
+*.db-shm
+*.db
