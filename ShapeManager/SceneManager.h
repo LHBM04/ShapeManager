@@ -1,9 +1,16 @@
 #pragma once
 
+#include <stack>
+#include <string>
+
+#include "Scene.h"
+#include "Singleton.h"
+
 /// <summary>
 /// Scene을 관리하는 매니저.
 /// </summary>
-class SceneManager final : public Singleton<SceneManager> {
+class SceneManager final : 
+	public Singleton<SceneManager> {
 private:
 	/// <summary>
 	/// 관리하는 Scene들.

@@ -1,13 +1,8 @@
-#include "Header.h"
+#include "SceneManager.h"
 
 SceneManager::SceneManager() {
-	const auto mainScene	= new MainScene();
-	const auto createScene	= new CreateScene();
-	const auto displayScene = new DisplayScene();
-	const auto destroyScene = new DestroyScene();
-
 	this->m_count			= 4;
-	this->m_scenes			= new Scene * [this->m_count] { mainScene, createScene, displayScene, destroyScene };
+	this->m_scenes			= new Scene * [10];
 	this->m_currentScene	= nullptr;
 }
 

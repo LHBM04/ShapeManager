@@ -1,13 +1,13 @@
 #include "Console.h"
 
-void Console::Write(const std::string& _text, int _delay = 10) {
+void Console::Write(const std::string& _text, int _delay) {
 	for (const char& ch : _text) {
 		std::cout << ch;
 		std::this_thread::sleep_for(std::chrono::milliseconds(_delay));
 	}
 }
 
-void Console::Write(const char* _text, int _delay = 10) {
+void Console::Write(const char* _text, int _delay) {
 	for (auto ch = _text; ++ch != nullptr;) {
 		std::cout << ch;
 		std::this_thread::sleep_for(std::chrono::milliseconds(_delay));
@@ -16,7 +16,7 @@ void Console::Write(const char* _text, int _delay = 10) {
 	//Console::Write(std::string(_text));
 }
 
-void Console::WriteLine(const std::string& _text, int _delay = 10) {
+void Console::WriteLine(const std::string& _text, int _delay) {
 	for (const char& ch : _text) {
 		std::cout << ch;
 		std::this_thread::sleep_for(std::chrono::milliseconds(_delay));
@@ -42,26 +42,4 @@ void Console::ClearBufferC() {
 
 void Console::ClearBufferCPP() {
 	std::cin.ignore();
-}
-
-void Console::WaitFor(Delay _delay, std::function<void()> _callback) {
-	std::this_thread::sleep_for(_delay);
-	_callback();
-}
-
-void Console::WaitFor(std::function<void()> _event, std::function<void()> _callback = nullptr) {
-	_event();
-
-	if (_callback != nullptr) {
-		_callback();
-	}
-}
-
-void Console::WaitFor(std::function<bool()> _event, std::function<void()> _callback = nullptr) {
-	while (!_event()) {
-	}
-
-	if (_callback != nullptr) {
-		_callback();
-	}
 }

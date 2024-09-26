@@ -104,7 +104,7 @@
       <SDLCheck>false</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -119,6 +119,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -128,36 +129,32 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="CreateScene.h" />
-    <ClInclude Include="DestoryScene.h" />
-    <ClInclude Include="DisplayScene.h" />
+    <ClInclude Include="Circle.h" />
     <ClInclude Include="Console.h" />
-    <ClInclude Include="Header.h" />
-    <ClInclude Include="MainScene.h" />
-    <ClInclude Include="MathF.h" />
     <ClInclude Include="Menu.h" />
+    <ClInclude Include="MenuSelector.h" />
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="Quadrangle.h" />
     <ClInclude Include="Scene.h" />
     <ClInclude Include="SceneManager.h" />
     <ClInclude Include="Shape.h" />
+    <ClInclude Include="ShapeManager.h" />
     <ClInclude Include="Singleton.h" />
+    <ClInclude Include="Triangle.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Circle.cpp" />
-    <ClCompile Include="CreateScene.cpp" />
-    <ClCompile Include="DestoryScene.cpp" />
-    <ClCompile Include="DisplayScene.cpp" />
     <ClCompile Include="Console.cpp" />
     <ClCompile Include="Main.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="MainScene.cpp" />
-    <ClCompile Include="MathF.cpp" />
     <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="MenuSelector.cpp" />
     <ClCompile Include="Point.cpp" />
     <ClCompile Include="Quadrangle.cpp" />
     <ClCompile Include="Scene.cpp" />
     <ClCompile Include="SceneManager.cpp" />
-    <ClCompile Include="Shape.cpp" />
+    <ClCompile Include="ShapeManager.cpp" />
     <ClCompile Include="Triangle.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

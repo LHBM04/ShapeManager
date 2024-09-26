@@ -24,27 +24,29 @@
     <ClInclude Include="Scene.h">
       <Filter>Scenes</Filter>
     </ClInclude>
-    <ClInclude Include="Header.h" />
-    <ClInclude Include="MainScene.h">
-      <Filter>Scenes</Filter>
-    </ClInclude>
-    <ClInclude Include="CreateScene.h">
-      <Filter>Scenes</Filter>
-    </ClInclude>
     <ClInclude Include="SceneManager.h">
       <Filter>Scenes</Filter>
-    </ClInclude>
-    <ClInclude Include="DestoryScene.h">
-      <Filter>Scenes</Filter>
-    </ClInclude>
-    <ClInclude Include="MathF.h">
-      <Filter>Utilis</Filter>
     </ClInclude>
     <ClInclude Include="Singleton.h">
       <Filter>Utilis</Filter>
     </ClInclude>
-    <ClInclude Include="DisplayScene.h">
-      <Filter>Scenes</Filter>
+    <ClInclude Include="Circle.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Quadrangle.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeManager.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuSelector.h">
+      <Filter>Utilis</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -58,31 +60,10 @@
     <ClCompile Include="Scene.cpp">
       <Filter>Scenes</Filter>
     </ClCompile>
-    <ClCompile Include="MainScene.cpp">
-      <Filter>Scenes</Filter>
-    </ClCompile>
-    <ClCompile Include="CreateScene.cpp">
-      <Filter>Scenes</Filter>
-    </ClCompile>
     <ClCompile Include="SceneManager.cpp">
       <Filter>Scenes</Filter>
     </ClCompile>
-    <ClCompile Include="DestoryScene.cpp">
-      <Filter>Scenes</Filter>
-    </ClCompile>
-    <ClCompile Include="MathF.cpp">
-      <Filter>Utilis</Filter>
-    </ClCompile>
-    <ClCompile Include="DisplayScene.cpp">
-      <Filter>Scenes</Filter>
-    </ClCompile>
-    <ClCompile Include="Shape.cpp">
-      <Filter>Shapes</Filter>
-    </ClCompile>
     <ClCompile Include="Circle.cpp">
-      <Filter>Shapes</Filter>
-    </ClCompile>
-    <ClCompile Include="Point.cpp">
       <Filter>Shapes</Filter>
     </ClCompile>
     <ClCompile Include="Triangle.cpp">
@@ -91,5 +72,12 @@
     <ClCompile Include="Quadrangle.cpp">
       <Filter>Shapes</Filter>
     </ClCompile>
+    <ClCompile Include="MenuSelector.cpp">
+      <Filter>Utilis</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeManager.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp" />
   </ItemGroup>
 </Project>

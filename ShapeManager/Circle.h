@@ -1,5 +1,10 @@
 #pragma once
 
+#include <format>
+
+#include "Point.h"
+#include "Shape.h"
+
 /// <summary>
 /// ¿ø.
 /// </summary>
