@@ -104,7 +104,7 @@
       <SDLCheck>false</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -128,25 +128,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Circle.h" />
     <ClInclude Include="CreateScene.h" />
     <ClInclude Include="DestoryScene.h" />
     <ClInclude Include="DisplayScene.h" />
     <ClInclude Include="Console.h" />
     <ClInclude Include="Header.h" />
-    <ClInclude Include="Line.h" />
     <ClInclude Include="MainScene.h" />
-    <ClInclude Include="MathUtility.h" />
+    <ClInclude Include="MathF.h" />
     <ClInclude Include="Menu.h" />
-    <ClInclude Include="Point.h" />
-    <ClInclude Include="Rectangle.h" />
     <ClInclude Include="Scene.h" />
     <ClInclude Include="SceneManager.h" />
     <ClInclude Include="Shape.h" />
-    <ClInclude Include="ShapeGenerator.h" />
-    <ClInclude Include="ShapeManager.h" />
-    <ClInclude Include="TaskWaitModule.h" />
-    <ClInclude Include="Triangle.h" />
     <ClInclude Include="Singleton.h" />
   </ItemGroup>
   <ItemGroup>
@@ -155,20 +147,17 @@
     <ClCompile Include="DestoryScene.cpp" />
     <ClCompile Include="DisplayScene.cpp" />
     <ClCompile Include="Console.cpp" />
-    <ClCompile Include="Line.cpp" />
     <ClCompile Include="Main.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="MainScene.cpp" />
-    <ClCompile Include="MathUtility.cpp" />
+    <ClCompile Include="MathF.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="Point.cpp" />
-    <ClCompile Include="Rectangle.cpp" />
+    <ClCompile Include="Quadrangle.cpp" />
     <ClCompile Include="Scene.cpp" />
     <ClCompile Include="SceneManager.cpp" />
-    <ClCompile Include="ShapeGenerator.cpp" />
-    <ClCompile Include="ShapeManager.cpp" />
-    <ClCompile Include="TaskWaitModule.cpp" />
+    <ClCompile Include="Shape.cpp" />
     <ClCompile Include="Triangle.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

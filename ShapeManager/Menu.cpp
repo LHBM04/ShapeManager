@@ -1,4 +1,4 @@
-#include "Header.h"
+#include "Menu.h"
 
 const std::string& Menu::GetName() const {
 	return this->m_name;
@@ -33,13 +33,14 @@ void MenuSelector::Display() const {
 }
 
 void MenuSelector::Select() const {
-	unsigned short action = 0;
+	unsigned char action = 0;
 	Console::Write(MenuSelector::SELECT_MENU_MESSAGE);
 	while (true) {
 		std::cin >> action;
 		Console::ClearBufferCPP();
 
-		if (action < 1 || action > this->m_count) {
+		if (action < 1 || 
+			action > this->m_count) {
 			Console::Write(MenuSelector::SELECT_RIGHT_MENU_MESSAGE);
 			continue;
 		} else {

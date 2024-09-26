@@ -1,5 +1,10 @@
 #pragma once
 
+#include <functional>
+#include <string>
+
+#include "Console.h"
+
 /// <summary>
 /// ¸Þ´º.
 /// </summary>

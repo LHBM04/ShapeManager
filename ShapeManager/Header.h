@@ -1,6 +1,7 @@
 #pragma once
 
 // Standards
+#include <atomic>
 #include <chrono>
 #include <cmath>
 #include <cstdio>
@@ -10,26 +11,15 @@
 #include <stack>
 #include <string>
 #include <thread>
-
-#pragma warning (disable : 4244)
-#pragma warning (disable : 4996)
-#pragma warning (disable : 6031)
+#include <print>
+#include <optional>
 
 // Utilities
 #include "Singleton.h"
-#include "Console.h"
-#include "MathUtility.h"
 #include "Menu.h"
 
 // Shapes
 #include "Shape.h"
-#include "Point.h"
-#include "Line.h"
-#include "Circle.h"
-#include "Triangle.h"
-#include "Rectangle.h"
-#include "ShapeGenerator.h"
-#include "ShapeManager.h"
 
 // Scenes
 #include "Scene.h"

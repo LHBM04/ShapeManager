@@ -41,7 +41,7 @@ public:
 	/// <summary>
 	/// 기존 도형을 삭제합니다.
 	/// </summary>
-	void DestroyShape();
+	void DeleteShape();
 
 	/// <summary>
 	/// 비어있는지 확인합니다.
@@ -53,7 +53,7 @@ public:
 	/// 도형들의 개수를 가져옵니다.
 	/// </summary>
 	/// <returns></returns>
-	const size_t GetShapesCount() const;
+	const size_t Count() const;
 
 	/// <summary>
 	/// 도형의 타입을 가져옵니다.

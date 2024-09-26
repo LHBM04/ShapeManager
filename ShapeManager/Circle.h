@@ -30,4 +30,3 @@ public:
 	// Shape을(를) 통해 상속됨
 	void Display() const override;
 };
-

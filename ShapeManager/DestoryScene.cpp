@@ -15,6 +15,6 @@ void DestroyScene::Update() {
 		SceneManager::GetInstance().UnloadScene();
 	}
 
-	ShapeManager::GetInstance().DestroyShape();
+	ShapeManager::GetInstance().Delete();
 	SceneManager::GetInstance().UnloadScene();
 }

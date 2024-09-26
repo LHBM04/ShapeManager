@@ -21,21 +21,6 @@
     <ClInclude Include="Shape.h">
       <Filter>Shapes</Filter>
     </ClInclude>
-    <ClInclude Include="Point.h">
-      <Filter>Shapes</Filter>
-    </ClInclude>
-    <ClInclude Include="Circle.h">
-      <Filter>Shapes</Filter>
-    </ClInclude>
-    <ClInclude Include="Rectangle.h">
-      <Filter>Shapes</Filter>
-    </ClInclude>
-    <ClInclude Include="Line.h">
-      <Filter>Shapes</Filter>
-    </ClInclude>
-    <ClInclude Include="Triangle.h">
-      <Filter>Shapes</Filter>
-    </ClInclude>
     <ClInclude Include="Scene.h">
       <Filter>Scenes</Filter>
     </ClInclude>
@@ -46,19 +31,13 @@
     <ClInclude Include="CreateScene.h">
       <Filter>Scenes</Filter>
     </ClInclude>
-    <ClInclude Include="ShapeGenerator.h">
-      <Filter>Shapes</Filter>
-    </ClInclude>
-    <ClInclude Include="ShapeManager.h">
-      <Filter>Shapes</Filter>
-    </ClInclude>
     <ClInclude Include="SceneManager.h">
       <Filter>Scenes</Filter>
     </ClInclude>
     <ClInclude Include="DestoryScene.h">
       <Filter>Scenes</Filter>
     </ClInclude>
-    <ClInclude Include="MathUtility.h">
+    <ClInclude Include="MathF.h">
       <Filter>Utilis</Filter>
     </ClInclude>
     <ClInclude Include="Singleton.h">
@@ -67,7 +46,6 @@
     <ClInclude Include="DisplayScene.h">
       <Filter>Scenes</Filter>
     </ClInclude>
-    <ClInclude Include="TaskWaitModule.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Menu.cpp">
@@ -76,21 +54,6 @@
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Console.cpp">
       <Filter>Utilis</Filter>
-    </ClCompile>
-    <ClCompile Include="Point.cpp">
-      <Filter>Shapes</Filter>
-    </ClCompile>
-    <ClCompile Include="Circle.cpp">
-      <Filter>Shapes</Filter>
-    </ClCompile>
-    <ClCompile Include="Rectangle.cpp">
-      <Filter>Shapes</Filter>
-    </ClCompile>
-    <ClCompile Include="Line.cpp">
-      <Filter>Shapes</Filter>
-    </ClCompile>
-    <ClCompile Include="Triangle.cpp">
-      <Filter>Shapes</Filter>
     </ClCompile>
     <ClCompile Include="Scene.cpp">
       <Filter>Scenes</Filter>
@@ -101,24 +64,32 @@
     <ClCompile Include="CreateScene.cpp">
       <Filter>Scenes</Filter>
     </ClCompile>
-    <ClCompile Include="ShapeManager.cpp">
-      <Filter>Shapes</Filter>
-    </ClCompile>
-    <ClCompile Include="ShapeGenerator.cpp">
-      <Filter>Shapes</Filter>
-    </ClCompile>
     <ClCompile Include="SceneManager.cpp">
       <Filter>Scenes</Filter>
     </ClCompile>
     <ClCompile Include="DestoryScene.cpp">
       <Filter>Scenes</Filter>
     </ClCompile>
-    <ClCompile Include="MathUtility.cpp">
+    <ClCompile Include="MathF.cpp">
       <Filter>Utilis</Filter>
     </ClCompile>
     <ClCompile Include="DisplayScene.cpp">
       <Filter>Scenes</Filter>
     </ClCompile>
-    <ClCompile Include="TaskWaitModule.cpp" />
+    <ClCompile Include="Shape.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Quadrangle.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

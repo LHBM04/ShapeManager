@@ -35,7 +35,7 @@ void ShapeManager::InsertShape(const Shape* _shape) {
 	this->m_shapes[this->m_count++] = _shape;
 }
 
-void ShapeManager::DestroyShape() {
+void ShapeManager::DeleteShape() {
 	if (this->m_shapes == nullptr || this->m_count <= 0) {
 		return;
 	}
@@ -69,7 +69,7 @@ const bool ShapeManager::IsEmpty() const {
 	return this->m_count <= 0 ? true : false;
 }
 
-const size_t ShapeManager::GetShapesCount() const {
+const size_t ShapeManager::Count() const {
 	return this->m_count;
 }
 
@@ -83,7 +83,7 @@ const std::string ShapeManager::GetShapeType(const Shape*& _shape) {
 	else if (dynamic_cast<const Triangle*>(_shape) != nullptr) {
 		return "삼각형";
 	}
-	else if (dynamic_cast<const Rectangle*>(_shape) != nullptr) {
+	else if (dynamic_cast<const Quadrangle*>(_shape) != nullptr) {
 		return "사각형";
 	}
 	else {

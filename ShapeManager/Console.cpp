@@ -1,25 +1,28 @@
-#include "Header.h"
+#include "Console.h"
 
-const Delay Console::m_delay(10);
-
-void Console::Write(const std::string& _text) {
-	for (const auto& ch : _text) {
+void Console::Write(const std::string& _text, int _delay = 10) {
+	for (const char& ch : _text) {
 		std::cout << ch;
-		std::this_thread::sleep_for(Console::m_delay);
+		std::this_thread::sleep_for(std::chrono::milliseconds(_delay));
 	}
 }
 
-void Console::Write(const char* _text) {
-	Console::Write(std::string(_text));
-}
-
-void Console::WriteLine(const std::string& _text, bool _shouldAlign) {
-	for (const auto& ch : _text) {
+void Console::Write(const char* _text, int _delay = 10) {
+	for (auto ch = _text; ++ch != nullptr;) {
 		std::cout << ch;
-		std::this_thread::sleep_for(m_delay);
+		std::this_thread::sleep_for(std::chrono::milliseconds(_delay));
 	}
 
-	if (_shouldAlign && *(--_text.end()) != '\n') {
+	//Console::Write(std::string(_text));
+}
+
+void Console::WriteLine(const std::string& _text, int _delay = 10) {
+	for (const char& ch : _text) {
+		std::cout << ch;
+		std::this_thread::sleep_for(std::chrono::milliseconds(_delay));
+	}
+
+	if (*(--_text.end()) != '\n') {
 		std::cout << std::endl;
 	}
 }
@@ -39,4 +42,26 @@ void Console::ClearBufferC() {
 
 void Console::ClearBufferCPP() {
 	std::cin.ignore();
+}
+
+void Console::WaitFor(Delay _delay, std::function<void()> _callback) {
+	std::this_thread::sleep_for(_delay);
+	_callback();
+}
+
+void Console::WaitFor(std::function<void()> _event, std::function<void()> _callback = nullptr) {
+	_event();
+
+	if (_callback != nullptr) {
+		_callback();
+	}
+}
+
+void Console::WaitFor(std::function<bool()> _event, std::function<void()> _callback = nullptr) {
+	while (!_event()) {
+	}
+
+	if (_callback != nullptr) {
+		_callback();
+	}
 }
