@@ -1,5 +1,10 @@
 #pragma once
 
+#include <string>
+#include <format>
+
+#include "Console.h"
+
 /// <summary>
 /// Scene.
 /// </summary>
@@ -42,12 +47,12 @@ public:
 	/// Scene의 이름을 가져옵니다.
 	/// </summary>
 	/// <returns></returns>
-	const std::string GetName() const;
+	const std::string& GetName() const;
 
 	/// <summary>
 	/// Scene의 설명을 가져옵니다.
 	/// </summary>
-	const std::string GetDescription() const;
+	const std::string& GetDescription() const;
 
 	/// <summary>
 	/// 해당 Scene의 Load 여부를 가져옵니다.
