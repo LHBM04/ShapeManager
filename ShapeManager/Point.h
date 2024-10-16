@@ -1,6 +1,5 @@
 #pragma once
 
-#include <format>
 #include <limits>
 
 /// <summary>
@@ -11,22 +10,21 @@ private:
 	/// <summary>
 	/// 오른쪽 점.
 	/// </summary>
-	double m_x;
+	double m_x{ 0 };
 
 	/// <summary>
 	/// 왼쪽 점.
 	/// </summary>
-	double m_y;
+	double m_y{ 0 };
 
 public:
-	Point();
-	Point(const int _right, const int _left);
+	Point() = delete;
 	Point(const double& _right, const double& _left);
 	Point(const Point& _other);
 	~Point();
 
-	bool operator == (const Point& _other);
-	bool operator != (const Point& _other);
+	const bool operator == (const Point& _other) const;
+	const bool operator != (const Point& _other) const;
 
 public:
 	/// <summary>

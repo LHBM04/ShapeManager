@@ -7,45 +7,50 @@
 
 class Shape;
 
-class ShapeManager :
-	public Singleton<ShapeManager> {
+class ShapeManager :public Singleton<ShapeManager> {
+	friend Shape;
 private:
-	static const size_t DEFAULT_SHAPE_COUNT;
+	/// <summary>
+	/// 관리하는 도형들.
+	/// </summary>
+	const Shape** m_shapes{ nullptr };
 
-private:
-	const Shape** m_shapes;
+	/// <summary>
+	/// 현재 관리 가능한 용량.
+	/// </summary>
+	size_t m_capacity{ 0 };
 
-	size_t m_size;
-
-	size_t m_count;
+	/// <summary>
+	/// 현재 관리 중인 도형들의 개수.
+	/// </summary>
+	size_t m_count{ 0 };
 
 public:
-	ShapeManager();
-	ShapeManager(const size_t& _size);
+	ShapeManager(const size_t&);
+	ShapeManager(const Shape**);
 	~ShapeManager();
 
-	const Shape*& operator[](const int index);
-	const Shape*& operator[](const std::function<const bool()> _predicate);
+	//const std::optional<const Shape*&> operator[](const size_t&) const;
+	//const std::optional<const Shape*&> operator[](const std::function<const bool(const Shape*&)>) const;
 
 public:
-	void Add(const Shape*& _shape);
-	void Add(const Shape**& _shapes);
+	void Add(const Shape*&);
+	void Add(const Shape**&);
 
-	void Delete(const int _index);
-	void DeleteAll(const int _begin, const int _end);
-	void DeleteAll(const std::function<const bool()> _predicate);
-	void Clear();
+	void Delete(const size_t);
+	void DeleteAll();
+	void DeleteAll(const size_t, const size_t);
+	void DeleteAll(const std::function<const bool(const Shape*&)>);
 
 	const bool IsEmpty() const;
 	const size_t GetCount() const;
-	const Shape*& GetShape(const int index) const;
-	const Shape*& GetShape(const std::function<const bool()> _predicate) const;
 
-	void IsExists(std::function<bool()> _predicate);
-	void IsContains(const Shape*& _shape);
+	const Shape*& GetShape(const size_t) const;
+	const Shape*& GetShape(const std::function<const bool(const Shape*&)>) const;
+	const Shape*& GetShapes(const size_t, const size_t) const;
+	const Shape*& GetShapes(const std::function<const bool(const Shape*&)>) const;
 
-	const std::string GetShapeType(const Shape*& _shape);
-
-	void Display();
+	const bool IsExists(std::function<bool(const Shape*&)>) const;
+	const bool IsContains(const Shape*&) const;
 };
 

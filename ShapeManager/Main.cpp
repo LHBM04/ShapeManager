@@ -1,6 +1,5 @@
-#include <format>
 #include "Console.h"
 
 int main() {
-	Console::Write(std::format("æ»≥Á«œººø‰.").c_str());
+	Console::Write("æ»≥Á«œººø‰");
 }

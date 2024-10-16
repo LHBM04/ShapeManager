@@ -5,41 +5,33 @@
 
 #include "Console.h"
 
+class SceneManager;
+
 /// <summary>
 /// Scene.
 /// </summary>
 class Scene abstract {
-private:
-	/// <summary>
-	/// Scene의 기본 이름.
-	/// </summary>
-	const static std::string DEFAULT_SCENE_NAME;
-
-	/// <summary>
-	/// Scene의 기본 설명.
-	/// </summary>
-	const static std::string DEFAULT_SCENE_DESCRIPTION;
+	friend SceneManager;
 
 private:
 	/// <summary>
 	/// Scene의 이름.
 	/// </summary>
-	std::string		m_name;
+	std::string m_name{"???"};
 
 	/// <summary>
 	/// Scene의 설명.
 	/// </summary>
-	std::string		m_description;
+	std::string	m_description{"???"};
 
 	/// <summary>
 	/// 로드 여부.
 	/// </summary>
-	bool			m_isLoaded;
+	bool m_isLoaded{ false };
 
 public:
-	Scene();
 	Scene(const std::string& _name, const std::string& _description);
-	Scene(const Scene& _other) = delete;
+	Scene(const Scene& _other);
 	virtual ~Scene();
 
 public:

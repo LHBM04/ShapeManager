@@ -2,8 +2,8 @@
 
 #include <format>
 
-#include "Shape.h"
 #include "Point.h"
+#include "Shape.h"
 
 class Triangle : public Shape {
 private:
@@ -12,12 +12,13 @@ private:
 	Point m_vertex3;
 
 public:
-	Triangle();
 	Triangle(const Point& _first, const Point& _second, const Point& _third);
 	Triangle(const Triangle& _other);
-	virtual ~Triangle() override;
 
 public:
 	// Shape을(를) 통해 상속됨
 	void Display() const override;
+
+	// Shape을(를) 통해 상속됨
+	const double GetSize() const override;
 };

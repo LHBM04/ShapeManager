@@ -78,6 +78,11 @@
     <ClCompile Include="ShapeManager.cpp">
       <Filter>Shapes</Filter>
     </ClCompile>
-    <ClCompile Include="Point.cpp" />
+    <ClCompile Include="Point.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -21,7 +21,6 @@ private:
 	Point m_end;
 
 public:
-	Circle();
 	Circle(const Point& _center, const Point& _end);
 	Circle(const Circle& _other);
 	virtual ~Circle() override;
@@ -34,4 +33,7 @@ public:
 
 	// Shape을(를) 통해 상속됨
 	void Display() const override;
+
+	// Shape을(를) 통해 상속됨
+	const double GetSize() const override;
 };

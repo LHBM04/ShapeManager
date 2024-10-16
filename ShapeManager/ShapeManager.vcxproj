@@ -154,6 +154,7 @@
     <ClCompile Include="Quadrangle.cpp" />
     <ClCompile Include="Scene.cpp" />
     <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="Shape.cpp" />
     <ClCompile Include="ShapeManager.cpp" />
     <ClCompile Include="Triangle.cpp" />
   </ItemGroup>

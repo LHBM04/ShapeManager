@@ -2,7 +2,6 @@
 
 #include <cmath>
 #include <format>
-#include <iostream>
 #include <string>
 
 #include "Console.h"
@@ -16,11 +15,18 @@ class ShapeManager;
 /// </summary>
 class Shape abstract {
 	friend ShapeManager;
-private:
-	std::string m_name;
-	std::string m_graphic;
+protected:
+	std::string m_name{"???"};
+	std::string m_graphic{"???"};
+
+public:	
+	virtual ~Shape() {};
+
+	virtual const double GetSize() const = 0;
+	virtual void Display() const = 0;
 
 public:
-	virtual ~Shape() {};
-	virtual void Display() const = 0;
+	const std::string& GetName() const;
+	const std::string& GetGraphic() const;
+
 };

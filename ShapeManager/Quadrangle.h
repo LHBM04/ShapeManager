@@ -28,14 +28,14 @@ private:
 	Point m_vertex4;
 
 public:
-	Quadrangle();
 	Quadrangle(const Point& _first, const Point& _second);
 	Quadrangle(const Point& _first, const Point& _second, const Point& third, const Point& _fourth);
 	Quadrangle(const Quadrangle& _other);
-	virtual ~Quadrangle() override;
 
 public:
-	const double GetArea() const;
+	// Shape을(를) 통해 상속됨
+	const double GetSize() const override;
+
 	// Shape을(를) 통해 상속됨
 	void Display() const override;
 };

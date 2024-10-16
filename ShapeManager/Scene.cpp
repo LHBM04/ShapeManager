@@ -1,14 +1,5 @@
 #include "Scene.h"
 
-const std::string Scene::DEFAULT_SCENE_NAME{ "???" };
-const std::string Scene::DEFAULT_SCENE_DESCRIPTION{ "Scene의 설명을 써주세요." };
-
-Scene::Scene() : 
-	m_name(Scene::DEFAULT_SCENE_NAME), 
-	m_description(Scene::DEFAULT_SCENE_DESCRIPTION), 
-	m_isLoaded(false) {
-}
-
 Scene::Scene(const std::string& _name, const std::string& _description) : 
 	m_name(_name), 
 	m_description(_description), 

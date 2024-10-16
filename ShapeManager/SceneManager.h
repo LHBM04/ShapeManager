@@ -9,13 +9,18 @@
 /// <summary>
 /// Scene을 관리하는 매니저.
 /// </summary>
-class SceneManager final : 
-	public Singleton<SceneManager> {
+class SceneManager final : public Singleton<SceneManager> {
+	friend Scene;
 private:
 	/// <summary>
 	/// 관리하는 Scene들.
 	/// </summary>
 	Scene**				m_scenes;
+
+	/// <summary>
+	/// 
+	/// </summary>
+	size_t				m_capacity;
 
 	/// <summary>
 	/// 관리하는 Scene들의 개수.
@@ -37,6 +42,12 @@ public:
 	~SceneManager();
 
 public:
+	/// <summary>
+	/// Scene을 로드합니다.
+	/// </summary>
+	/// <param name="_index"></param>
+	void LoadScene(const size_t& _index);
+
 	/// <summary>
 	/// Scene을 로드합니다.
 	/// </summary>

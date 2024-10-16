@@ -1,94 +1,102 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Game Projects\\ShapeManager\\",
+  "WorkspaceRootPath": "D:\\Game Project\\ShapeManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|C:\\Game Projects\\ShapeManager\\ShapeManager\\Console.h||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\Console.h||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|D:\\Game Project\\ShapeManager\\ShapeManager\\ShapeManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\ShapeManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|C:\\Game Projects\\ShapeManager\\ShapeManager\\Console.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\Console.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|C:\\Game Projects\\ShapeManager\\ShapeManager\\Header.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\Header.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|C:\\Game Projects\\ShapeManager\\ShapeManager\\BaseDialog.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\BaseDialog.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|C:\\Game Projects\\ShapeManager\\ShapeManager\\Shape.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\Shape.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|C:\\Game Projects\\ShapeManager\\ShapeManager\\ShapeGenerator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\ShapeGenerator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|C:\\Game Projects\\ShapeManager\\ShapeManager\\ShapeManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|D:\\Game Project\\ShapeManager\\ShapeManager\\ShapeManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\ShapeManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|C:\\Game Projects\\ShapeManager\\ShapeManager\\Singleton.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|D:\\Game Project\\ShapeManager\\ShapeManager\\SceneManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\SceneManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|D:\\Game Project\\ShapeManager\\ShapeManager\\Point.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\Point.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|D:\\Game Project\\ShapeManager\\ShapeManager\\Point.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\Point.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|D:\\Game Project\\ShapeManager\\ShapeManager\\Shape.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\Shape.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|D:\\Game Project\\ShapeManager\\ShapeManager\\Singleton.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\Singleton.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|C:\\Game Projects\\ShapeManager\\ShapeManager\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|D:\\Game Project\\ShapeManager\\ShapeManager\\SceneManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\SceneManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|C:\\Game Projects\\ShapeManager\\ShapeManager\\ShapeGenerator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\ShapeGenerator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|D:\\Game Project\\ShapeManager\\ShapeManager\\Console.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\Console.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|C:\\Game Projects\\ShapeManager\\ShapeManager\\DisplayScene.cpp||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\DisplayScene.cpp||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|D:\\Game Project\\ShapeManager\\ShapeManager\\Console.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\Console.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|C:\\Game Projects\\ShapeManager\\ShapeManager\\Menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|D:\\Game Project\\ShapeManager\\ShapeManager\\Menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\Menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|C:\\Game Projects\\ShapeManager\\ShapeManager\\Menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\Menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|D:\\Game Project\\ShapeManager\\ShapeManager\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|C:\\Game Projects\\ShapeManager\\ShapeManager\\MathUtility.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\MathUtility.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|D:\\Game Project\\ShapeManager\\ShapeManager\\Quadrangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\Quadrangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|C:\\Game Projects\\ShapeManager\\ShapeManager\\MathUtility.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\MathUtility.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|D:\\Game Project\\ShapeManager\\ShapeManager\\Shape.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\Shape.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|C:\\Game Projects\\ShapeManager\\ShapeManager\\ShapeManager.cpp||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\ShapeManager.cpp||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|D:\\Game Project\\ShapeManager\\ShapeManager\\Triangle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\Triangle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|C:\\Game Projects\\ShapeManager\\ShapeManager\\CreateScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\CreateScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|D:\\Game Project\\ShapeManager\\ShapeManager\\Quadrangle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\Quadrangle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|C:\\Game Projects\\ShapeManager\\ShapeManager\\CreateScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\CreateScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|D:\\Game Project\\ShapeManager\\ShapeManager\\MenuSelector.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\MenuSelector.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|C:\\Game Projects\\ShapeManager\\ShapeManager\\Scene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|D:\\Game Project\\ShapeManager\\ShapeManager\\Scene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\Scene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|C:\\Game Projects\\ShapeManager\\ShapeManager\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|D:\\Game Project\\ShapeManager\\ShapeManager\\Triangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\Triangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|D:\\Game Project\\ShapeManager\\ShapeManager\\MenuSelector.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\MenuSelector.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|D:\\Game Project\\ShapeManager\\ShapeManager\\Circle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\Circle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|D:\\Game Project\\ShapeManager\\ShapeManager\\Circle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\Circle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|D:\\Game Project\\ShapeManager\\ShapeManager\\Menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\Menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|D:\\Game Project\\ShapeManager\\ShapeManager\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|C:\\Game Projects\\ShapeManager\\ShapeManager\\DestoryScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\DestoryScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|C:\\Game Projects\\ShapeManager\\ShapeManager\\MainScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{34F54D67-8357-45C5-9A0C-8D4266D20619}|ShapeManager\\ShapeManager.vcxproj|solutionrelative:ShapeManager\\MainScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,283 +106,307 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Shape.h",
-              "DocumentMoniker": "C:\\Game Projects\\ShapeManager\\ShapeManager\\Shape.h",
-              "RelativeDocumentMoniker": "ShapeManager\\Shape.h",
-              "ToolTip": "C:\\Game Projects\\ShapeManager\\ShapeManager\\Shape.h",
-              "RelativeToolTip": "ShapeManager\\Shape.h",
-              "ViewState": "AgIAAI0AAAAAAAAAAAAAAKkAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-12T05:45:34.09Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Header.h",
-              "DocumentMoniker": "C:\\Game Projects\\ShapeManager\\ShapeManager\\Header.h",
-              "RelativeDocumentMoniker": "ShapeManager\\Header.h",
-              "ToolTip": "C:\\Game Projects\\ShapeManager\\ShapeManager\\Header.h",
-              "RelativeToolTip": "ShapeManager\\Header.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-12T02:43:08.733Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Console.h",
-              "DocumentMoniker": "C:\\Game Projects\\ShapeManager\\ShapeManager\\Console.h",
-              "RelativeDocumentMoniker": "ShapeManager\\Console.h",
-              "ToolTip": "C:\\Game Projects\\ShapeManager\\ShapeManager\\Console.h",
-              "RelativeToolTip": "ShapeManager\\Console.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-12T02:42:25.491Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BaseDialog.h",
-              "DocumentMoniker": "C:\\Game Projects\\ShapeManager\\ShapeManager\\BaseDialog.h",
-              "RelativeDocumentMoniker": "ShapeManager\\BaseDialog.h",
-              "ToolTip": "C:\\Game Projects\\ShapeManager\\ShapeManager\\BaseDialog.h",
-              "RelativeToolTip": "ShapeManager\\BaseDialog.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-12T05:53:59.18Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Singleton.h",
-              "DocumentMoniker": "C:\\Game Projects\\ShapeManager\\ShapeManager\\Singleton.h",
-              "RelativeDocumentMoniker": "ShapeManager\\Singleton.h",
-              "ToolTip": "C:\\Game Projects\\ShapeManager\\ShapeManager\\Singleton.h",
-              "RelativeToolTip": "ShapeManager\\Singleton.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-12T05:47:32.26Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ShapeManager.h",
-              "DocumentMoniker": "C:\\Game Projects\\ShapeManager\\ShapeManager\\ShapeManager.h",
-              "RelativeDocumentMoniker": "ShapeManager\\ShapeManager.h",
-              "ToolTip": "C:\\Game Projects\\ShapeManager\\ShapeManager\\ShapeManager.h",
-              "RelativeToolTip": "ShapeManager\\ShapeManager.h",
-              "ViewState": "AgIAACsAAAAAAAAAAAAuwD0AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-12T02:38:40.104Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Main.cpp",
-              "DocumentMoniker": "C:\\Game Projects\\ShapeManager\\ShapeManager\\Main.cpp",
-              "RelativeDocumentMoniker": "ShapeManager\\Main.cpp",
-              "ToolTip": "C:\\Game Projects\\ShapeManager\\ShapeManager\\Main.cpp",
-              "RelativeToolTip": "ShapeManager\\Main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
+              "Title": "SceneManager.cpp",
+              "DocumentMoniker": "D:\\Game Project\\ShapeManager\\ShapeManager\\SceneManager.cpp",
+              "RelativeDocumentMoniker": "ShapeManager\\SceneManager.cpp",
+              "ToolTip": "D:\\Game Project\\ShapeManager\\ShapeManager\\SceneManager.cpp",
+              "RelativeToolTip": "ShapeManager\\SceneManager.cpp",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAIAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-12T03:11:15.922Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Console.cpp",
-              "DocumentMoniker": "C:\\Game Projects\\ShapeManager\\ShapeManager\\Console.cpp",
-              "RelativeDocumentMoniker": "ShapeManager\\Console.cpp",
-              "ToolTip": "C:\\Game Projects\\ShapeManager\\ShapeManager\\Console.cpp",
-              "RelativeToolTip": "ShapeManager\\Console.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-12T02:42:09.824Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ShapeGenerator.h",
-              "DocumentMoniker": "C:\\Game Projects\\ShapeManager\\ShapeManager\\ShapeGenerator.h",
-              "RelativeDocumentMoniker": "ShapeManager\\ShapeGenerator.h",
-              "ToolTip": "C:\\Game Projects\\ShapeManager\\ShapeManager\\ShapeGenerator.h",
-              "RelativeToolTip": "ShapeManager\\ShapeGenerator.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-12T05:44:27.89Z",
+              "WhenOpened": "2024-09-26T14:30:26.082Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "ShapeGenerator.cpp",
-              "DocumentMoniker": "C:\\Game Projects\\ShapeManager\\ShapeManager\\ShapeGenerator.cpp",
-              "RelativeDocumentMoniker": "ShapeManager\\ShapeGenerator.cpp",
-              "ToolTip": "C:\\Game Projects\\ShapeManager\\ShapeManager\\ShapeGenerator.cpp",
-              "RelativeToolTip": "ShapeManager\\ShapeGenerator.cpp",
-              "ViewState": "AgIAABAAAAAAAAAAAAAuwHEAAAAlAAAAAAAAAA==",
+              "Title": "Console.h",
+              "DocumentMoniker": "D:\\Game Project\\ShapeManager\\ShapeManager\\Console.h",
+              "RelativeDocumentMoniker": "ShapeManager\\Console.h",
+              "ToolTip": "D:\\Game Project\\ShapeManager\\ShapeManager\\Console.h",
+              "RelativeToolTip": "ShapeManager\\Console.h",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAC8AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-26T14:30:14.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Console.cpp",
+              "DocumentMoniker": "D:\\Game Project\\ShapeManager\\ShapeManager\\Console.cpp",
+              "RelativeDocumentMoniker": "ShapeManager\\Console.cpp",
+              "ToolTip": "D:\\Game Project\\ShapeManager\\ShapeManager\\Console.cpp",
+              "RelativeToolTip": "ShapeManager\\Console.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-12T05:45:41.16Z",
+              "WhenOpened": "2024-09-26T14:30:14.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Singleton.h",
+              "DocumentMoniker": "D:\\Game Project\\ShapeManager\\ShapeManager\\Singleton.h",
+              "RelativeDocumentMoniker": "ShapeManager\\Singleton.h",
+              "ToolTip": "D:\\Game Project\\ShapeManager\\ShapeManager\\Singleton.h",
+              "RelativeToolTip": "ShapeManager\\Singleton.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-26T14:30:11.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SceneManager.h",
+              "DocumentMoniker": "D:\\Game Project\\ShapeManager\\ShapeManager\\SceneManager.h",
+              "RelativeDocumentMoniker": "ShapeManager\\SceneManager.h",
+              "ToolTip": "D:\\Game Project\\ShapeManager\\ShapeManager\\SceneManager.h",
+              "RelativeToolTip": "ShapeManager\\SceneManager.h",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADMAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-26T14:30:22.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Shape.cpp",
+              "DocumentMoniker": "D:\\Game Project\\ShapeManager\\ShapeManager\\Shape.cpp",
+              "RelativeDocumentMoniker": "ShapeManager\\Shape.cpp",
+              "ToolTip": "D:\\Game Project\\ShapeManager\\ShapeManager\\Shape.cpp",
+              "RelativeToolTip": "ShapeManager\\Shape.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-26T13:59:42.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Point.h",
+              "DocumentMoniker": "D:\\Game Project\\ShapeManager\\ShapeManager\\Point.h",
+              "RelativeDocumentMoniker": "ShapeManager\\Point.h",
+              "ToolTip": "D:\\Game Project\\ShapeManager\\ShapeManager\\Point.h",
+              "RelativeToolTip": "ShapeManager\\Point.h",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-26T13:57:28.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Point.cpp",
+              "DocumentMoniker": "D:\\Game Project\\ShapeManager\\ShapeManager\\Point.cpp",
+              "RelativeDocumentMoniker": "ShapeManager\\Point.cpp",
+              "ToolTip": "D:\\Game Project\\ShapeManager\\ShapeManager\\Point.cpp",
+              "RelativeToolTip": "ShapeManager\\Point.cpp",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-26T13:55:38.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShapeManager.h",
+              "DocumentMoniker": "D:\\Game Project\\ShapeManager\\ShapeManager\\ShapeManager.h",
+              "RelativeDocumentMoniker": "ShapeManager\\ShapeManager.h",
+              "ToolTip": "D:\\Game Project\\ShapeManager\\ShapeManager\\ShapeManager.h",
+              "RelativeToolTip": "ShapeManager\\ShapeManager.h",
+              "ViewState": "AQIAAA4AAAAAAAAAAAD4vyEAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-26T14:00:46.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShapeManager.cpp",
+              "DocumentMoniker": "D:\\Game Project\\ShapeManager\\ShapeManager\\ShapeManager.cpp",
+              "RelativeDocumentMoniker": "ShapeManager\\ShapeManager.cpp",
+              "ToolTip": "D:\\Game Project\\ShapeManager\\ShapeManager\\ShapeManager.cpp",
+              "RelativeToolTip": "ShapeManager\\ShapeManager.cpp",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-26T14:23:41.172Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Menu.h",
-              "DocumentMoniker": "C:\\Game Projects\\ShapeManager\\ShapeManager\\Menu.h",
-              "RelativeDocumentMoniker": "ShapeManager\\Menu.h",
-              "ToolTip": "C:\\Game Projects\\ShapeManager\\ShapeManager\\Menu.h",
-              "RelativeToolTip": "ShapeManager\\Menu.h",
-              "ViewState": "AgIAABgAAAAAAAAAAAAuwEYAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-12T02:37:43.535Z",
+              "Title": "Main.cpp",
+              "DocumentMoniker": "D:\\Game Project\\ShapeManager\\ShapeManager\\Main.cpp",
+              "RelativeDocumentMoniker": "ShapeManager\\Main.cpp",
+              "ToolTip": "D:\\Game Project\\ShapeManager\\ShapeManager\\Main.cpp",
+              "RelativeToolTip": "ShapeManager\\Main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-26T15:21:31.657Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MathUtility.h",
-              "DocumentMoniker": "C:\\Game Projects\\ShapeManager\\ShapeManager\\MathUtility.h",
-              "RelativeDocumentMoniker": "ShapeManager\\MathUtility.h",
-              "ToolTip": "C:\\Game Projects\\ShapeManager\\ShapeManager\\MathUtility.h",
-              "RelativeToolTip": "ShapeManager\\MathUtility.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-12T05:44:51.123Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "MathUtility.cpp",
-              "DocumentMoniker": "C:\\Game Projects\\ShapeManager\\ShapeManager\\MathUtility.cpp",
-              "RelativeDocumentMoniker": "ShapeManager\\MathUtility.cpp",
-              "ToolTip": "C:\\Game Projects\\ShapeManager\\ShapeManager\\MathUtility.cpp",
-              "RelativeToolTip": "ShapeManager\\MathUtility.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Triangle.cpp",
+              "DocumentMoniker": "D:\\Game Project\\ShapeManager\\ShapeManager\\Triangle.cpp",
+              "RelativeDocumentMoniker": "ShapeManager\\Triangle.cpp",
+              "ToolTip": "D:\\Game Project\\ShapeManager\\ShapeManager\\Triangle.cpp",
+              "RelativeToolTip": "ShapeManager\\Triangle.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-12T02:42:47.946Z"
+              "WhenOpened": "2024-09-26T14:30:15.679Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "ShapeManager.cpp",
-              "DocumentMoniker": "C:\\Game Projects\\ShapeManager\\ShapeManager\\ShapeManager.cpp",
-              "RelativeDocumentMoniker": "ShapeManager\\ShapeManager.cpp",
-              "ToolTip": "C:\\Game Projects\\ShapeManager\\ShapeManager\\ShapeManager.cpp",
-              "RelativeToolTip": "ShapeManager\\ShapeManager.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAAmAAAAAAAAAA==",
+              "Title": "Quadrangle.cpp",
+              "DocumentMoniker": "D:\\Game Project\\ShapeManager\\ShapeManager\\Quadrangle.cpp",
+              "RelativeDocumentMoniker": "ShapeManager\\Quadrangle.cpp",
+              "ToolTip": "D:\\Game Project\\ShapeManager\\ShapeManager\\Quadrangle.cpp",
+              "RelativeToolTip": "ShapeManager\\Quadrangle.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-12T05:48:51.182Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DisplayScene.cpp",
-              "DocumentMoniker": "C:\\Game Projects\\ShapeManager\\ShapeManager\\DisplayScene.cpp",
-              "RelativeDocumentMoniker": "ShapeManager\\DisplayScene.cpp",
-              "ToolTip": "C:\\Game Projects\\ShapeManager\\ShapeManager\\DisplayScene.cpp",
-              "RelativeToolTip": "ShapeManager\\DisplayScene.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-12T02:42:25.411Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Menu.cpp",
-              "DocumentMoniker": "C:\\Game Projects\\ShapeManager\\ShapeManager\\Menu.cpp",
-              "RelativeDocumentMoniker": "ShapeManager\\Menu.cpp",
-              "ToolTip": "C:\\Game Projects\\ShapeManager\\ShapeManager\\Menu.cpp",
-              "RelativeToolTip": "ShapeManager\\Menu.cpp",
-              "ViewState": "AgIAABkAAAAAAAAAAAAuwCkAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-12T05:31:29.828Z"
+              "WhenOpened": "2024-09-26T14:00:03.541Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "CreateScene.h",
-              "DocumentMoniker": "C:\\Game Projects\\ShapeManager\\ShapeManager\\CreateScene.h",
-              "RelativeDocumentMoniker": "ShapeManager\\CreateScene.h",
-              "ToolTip": "C:\\Game Projects\\ShapeManager\\ShapeManager\\CreateScene.h",
-              "RelativeToolTip": "ShapeManager\\CreateScene.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
+              "Title": "MenuSelector.h",
+              "DocumentMoniker": "D:\\Game Project\\ShapeManager\\ShapeManager\\MenuSelector.h",
+              "RelativeDocumentMoniker": "ShapeManager\\MenuSelector.h",
+              "ToolTip": "D:\\Game Project\\ShapeManager\\ShapeManager\\MenuSelector.h",
+              "RelativeToolTip": "ShapeManager\\MenuSelector.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-12T03:05:14.922Z"
+              "WhenOpened": "2024-09-26T14:30:11.541Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "CreateScene.cpp",
-              "DocumentMoniker": "C:\\Game Projects\\ShapeManager\\ShapeManager\\CreateScene.cpp",
-              "RelativeDocumentMoniker": "ShapeManager\\CreateScene.cpp",
-              "ToolTip": "C:\\Game Projects\\ShapeManager\\ShapeManager\\CreateScene.cpp",
-              "RelativeToolTip": "ShapeManager\\CreateScene.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
+              "Title": "Scene.cpp",
+              "DocumentMoniker": "D:\\Game Project\\ShapeManager\\ShapeManager\\Scene.cpp",
+              "RelativeDocumentMoniker": "ShapeManager\\Scene.cpp",
+              "ToolTip": "D:\\Game Project\\ShapeManager\\ShapeManager\\Scene.cpp",
+              "RelativeToolTip": "ShapeManager\\Scene.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-12T03:04:47.652Z"
+              "WhenOpened": "2024-09-26T14:40:07.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Shape.h",
+              "DocumentMoniker": "D:\\Game Project\\ShapeManager\\ShapeManager\\Shape.h",
+              "RelativeDocumentMoniker": "ShapeManager\\Shape.h",
+              "ToolTip": "D:\\Game Project\\ShapeManager\\ShapeManager\\Shape.h",
+              "RelativeToolTip": "ShapeManager\\Shape.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-26T13:57:47.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Quadrangle.h",
+              "DocumentMoniker": "D:\\Game Project\\ShapeManager\\ShapeManager\\Quadrangle.h",
+              "RelativeDocumentMoniker": "ShapeManager\\Quadrangle.h",
+              "ToolTip": "D:\\Game Project\\ShapeManager\\ShapeManager\\Quadrangle.h",
+              "RelativeToolTip": "ShapeManager\\Quadrangle.h",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAUAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-26T13:57:31.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Menu.h",
+              "DocumentMoniker": "D:\\Game Project\\ShapeManager\\ShapeManager\\Menu.h",
+              "RelativeDocumentMoniker": "ShapeManager\\Menu.h",
+              "ToolTip": "D:\\Game Project\\ShapeManager\\ShapeManager\\Menu.h",
+              "RelativeToolTip": "ShapeManager\\Menu.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-26T14:30:13.457Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "Scene.cpp",
-              "DocumentMoniker": "C:\\Game Projects\\ShapeManager\\ShapeManager\\Scene.cpp",
-              "RelativeDocumentMoniker": "ShapeManager\\Scene.cpp",
-              "ToolTip": "C:\\Game Projects\\ShapeManager\\ShapeManager\\Scene.cpp",
-              "RelativeToolTip": "ShapeManager\\Scene.cpp",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAwCAAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-12T02:41:50.554Z"
+              "Title": "Triangle.h",
+              "DocumentMoniker": "D:\\Game Project\\ShapeManager\\ShapeManager\\Triangle.h",
+              "RelativeDocumentMoniker": "ShapeManager\\Triangle.h",
+              "ToolTip": "D:\\Game Project\\ShapeManager\\ShapeManager\\Triangle.h",
+              "RelativeToolTip": "ShapeManager\\Triangle.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-26T14:30:15.249Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "Scene.h",
-              "DocumentMoniker": "C:\\Game Projects\\ShapeManager\\ShapeManager\\Scene.h",
-              "RelativeDocumentMoniker": "ShapeManager\\Scene.h",
-              "ToolTip": "C:\\Game Projects\\ShapeManager\\ShapeManager\\Scene.h",
-              "RelativeToolTip": "ShapeManager\\Scene.h",
-              "ViewState": "AgIAACkAAAAAAAAAAAAAwDcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-12T02:39:20.145Z"
+              "Title": "MenuSelector.cpp",
+              "DocumentMoniker": "D:\\Game Project\\ShapeManager\\ShapeManager\\MenuSelector.cpp",
+              "RelativeDocumentMoniker": "ShapeManager\\MenuSelector.cpp",
+              "ToolTip": "D:\\Game Project\\ShapeManager\\ShapeManager\\MenuSelector.cpp",
+              "RelativeToolTip": "ShapeManager\\MenuSelector.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-26T14:30:13.016Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "MainScene.h",
-              "DocumentMoniker": "C:\\Game Projects\\ShapeManager\\ShapeManager\\MainScene.h",
-              "RelativeDocumentMoniker": "ShapeManager\\MainScene.h",
-              "ToolTip": "C:\\Game Projects\\ShapeManager\\ShapeManager\\MainScene.h",
-              "RelativeToolTip": "ShapeManager\\MainScene.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-12T02:39:21.826Z"
+              "Title": "Circle.cpp",
+              "DocumentMoniker": "D:\\Game Project\\ShapeManager\\ShapeManager\\Circle.cpp",
+              "RelativeDocumentMoniker": "ShapeManager\\Circle.cpp",
+              "ToolTip": "D:\\Game Project\\ShapeManager\\ShapeManager\\Circle.cpp",
+              "RelativeToolTip": "ShapeManager\\Circle.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-26T15:03:01.501Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "DestoryScene.h",
-              "DocumentMoniker": "C:\\Game Projects\\ShapeManager\\ShapeManager\\DestoryScene.h",
-              "RelativeDocumentMoniker": "ShapeManager\\DestoryScene.h",
-              "ToolTip": "C:\\Game Projects\\ShapeManager\\ShapeManager\\DestoryScene.h",
-              "RelativeToolTip": "ShapeManager\\DestoryScene.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Circle.h",
+              "DocumentMoniker": "D:\\Game Project\\ShapeManager\\ShapeManager\\Circle.h",
+              "RelativeDocumentMoniker": "ShapeManager\\Circle.h",
+              "ToolTip": "D:\\Game Project\\ShapeManager\\ShapeManager\\Circle.h",
+              "RelativeToolTip": "ShapeManager\\Circle.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-12T02:39:24.016Z"
+              "WhenOpened": "2024-09-26T15:03:31.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Menu.cpp",
+              "DocumentMoniker": "D:\\Game Project\\ShapeManager\\ShapeManager\\Menu.cpp",
+              "RelativeDocumentMoniker": "ShapeManager\\Menu.cpp",
+              "ToolTip": "D:\\Game Project\\ShapeManager\\ShapeManager\\Menu.cpp",
+              "RelativeToolTip": "ShapeManager\\Menu.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-26T14:30:13.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Scene.h",
+              "DocumentMoniker": "D:\\Game Project\\ShapeManager\\ShapeManager\\Scene.h",
+              "RelativeDocumentMoniker": "ShapeManager\\Scene.h",
+              "ToolTip": "D:\\Game Project\\ShapeManager\\ShapeManager\\Scene.h",
+              "RelativeToolTip": "ShapeManager\\Scene.h",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACAAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-26T14:31:23.301Z"
             }
           ]
         }
