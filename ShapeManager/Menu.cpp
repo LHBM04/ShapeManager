@@ -10,8 +10,9 @@ void Menu::Invoke() const {
 	}
 }
 
-const std::string MenuSelector::SELECT_MENU_MESSAGE = "메뉴를 골라주세요. ==> ";
-const std::string MenuSelector::SELECT_RIGHT_MENU_MESSAGE = "올바른 메뉴를 골라주세요. ==> ";
+const size_t MenuSelector::DEFAULT_MENU_COUNT{ 10 };
+const std::string MenuSelector::SELECT_MENU_MESSAGE{ "메뉴를 골라주세요. ==> " };
+const std::string MenuSelector::SELECT_RIGHT_MENU_MESSAGE{ "올바른 메뉴를 골라주세요. ==> " };
 
 MenuSelector::~MenuSelector() {
 	for (int index = 0; index < this->m_count; ++index) {
@@ -36,7 +37,7 @@ void MenuSelector::Select() const {
 	DrawUtility::Write(MenuSelector::SELECT_MENU_MESSAGE);
 	while (true) {
 		std::cin >> action;
-		std::cin.ignore();
+		DrawUtility::ClearBufferCPP();
 
 		if (action < 1 || action > this->m_count) {
 			DrawUtility::Write(MenuSelector::SELECT_RIGHT_MENU_MESSAGE);

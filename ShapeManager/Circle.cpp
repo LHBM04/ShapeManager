@@ -6,6 +6,9 @@ Circle::Circle() : m_center(Point(0, 0)), m_end(Point(0, 0)) {
 Circle::Circle(const Point& _center, const Point& _end) : m_center(_center), m_end(_end) {
 }
 
+Circle::Circle(const Circle& _other) : m_center(_other.m_center), m_end(_other.m_end) {
+}
+
 Circle::~Circle() {
 }
 

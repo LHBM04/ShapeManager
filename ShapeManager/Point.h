@@ -19,8 +19,11 @@ public:
 	Point();
 	Point(const int _right, const int _left);
 	Point(const double& _right, const double& _left);
-	Point(const Point& _other) = default;
+	Point(const Point& _other);
 	~Point();
+
+	bool operator == (const Point& _other);
+	bool operator != (const Point& _other);
 
 public:
 	/// <summary>

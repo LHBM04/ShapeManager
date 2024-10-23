@@ -27,3 +27,16 @@ void DrawUtility::WriteLine(const std::string& _text, bool _isNeedAlign) {
 void DrawUtility::WriteLine(const char* _text, bool _isNeedAlign) {
 	DrawUtility::WriteLine(std::string(_text), _isNeedAlign);
 }
+
+void DrawUtility::ClearScreen() {
+	std::cout << "\x1B[2J\x1B[H";
+}
+
+void DrawUtility::ClearBufferC() {
+	char c;
+	while ((c = getchar()) != '\n' && c != EOF);
+}
+
+void DrawUtility::ClearBufferCPP() {
+	std::cin.ignore();
+}

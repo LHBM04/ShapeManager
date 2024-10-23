@@ -38,6 +38,11 @@ public:
 class MenuSelector final {
 private:
 	/// <summary>
+	/// 기본 메뉴 개수.
+	/// </summary>
+	static const size_t DEFAULT_MENU_COUNT;
+
+	/// <summary>
 	/// 메뉴 선택 메세지.
 	/// </summary>
 	static const std::string SELECT_MENU_MESSAGE;
@@ -54,7 +59,7 @@ private:
 	const Menu* const*	m_menus;
 
 	/// <summary>
-	/// 
+	/// 관리하고 있는 메뉴들의 개수.
 	/// </summary>
 	size_t				m_count;
 
@@ -64,7 +69,6 @@ public:
 		this->m_count = sizeof...(_menus);
 		this->m_menus = new const Menu* const[]{_menus...};
 	}
-
 	~MenuSelector();
 
 public:

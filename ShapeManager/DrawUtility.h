@@ -36,4 +36,19 @@ public:
 	/// <param name="_text">출력할 문장.</param>
 	/// <param name="_isNeedAlign">개행이 필요한지에 대한 여부.(기본값: 참)</param>
 	static void WriteLine(const char* _text, bool _isNeedAlign = true);
+
+	/// <summary>
+	/// 터미널 화면을 비웁니다.
+	/// </summary>
+	static void ClearScreen();
+
+	/// <summary>
+	/// 입력 버퍼를 비웁니다. (C 타입)
+	/// </summary>
+	static void ClearBufferC();
+
+	/// <summary>
+	/// 입력 버퍼를 비웁니다. (C++ 타입)
+	/// </summary>
+	static void ClearBufferCPP();
 };

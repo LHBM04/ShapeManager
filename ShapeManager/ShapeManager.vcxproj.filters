@@ -43,14 +43,29 @@
     <ClInclude Include="MainScene.h">
       <Filter>Scenes</Filter>
     </ClInclude>
-    <ClInclude Include="TestScene1.h">
+    <ClInclude Include="CreateScene.h">
       <Filter>Scenes</Filter>
     </ClInclude>
-    <ClInclude Include="TestScene2.h">
+    <ClInclude Include="ShapeGenerator.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeManager.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
       <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="DestoryScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="MathUtility.h">
+      <Filter>Utilis</Filter>
     </ClInclude>
     <ClInclude Include="Singleton.h">
       <Filter>Utilis</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayScene.h">
+      <Filter>Scenes</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -76,19 +91,31 @@
     <ClCompile Include="Triangle.cpp">
       <Filter>Shapes</Filter>
     </ClCompile>
-    <ClCompile Include="Shape.cpp">
-      <Filter>Shapes</Filter>
-    </ClCompile>
     <ClCompile Include="Scene.cpp">
       <Filter>Scenes</Filter>
     </ClCompile>
     <ClCompile Include="MainScene.cpp">
       <Filter>Scenes</Filter>
     </ClCompile>
-    <ClCompile Include="TestScene1.cpp">
+    <ClCompile Include="CreateScene.cpp">
       <Filter>Scenes</Filter>
     </ClCompile>
-    <ClCompile Include="TestScene2.cpp">
+    <ClCompile Include="ShapeManager.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeGenerator.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="DestoryScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="MathUtility.cpp">
+      <Filter>Utilis</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayScene.cpp">
       <Filter>Scenes</Filter>
     </ClCompile>
   </ItemGroup>

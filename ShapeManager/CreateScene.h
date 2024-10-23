@@ -1,13 +1,14 @@
 #pragma once
 
-class MainScene final : public Scene {
+class CreateScene final : public Scene {
 private:
 	MenuSelector* m_menuSelector;
 
 public:
-	MainScene();
-	virtual ~MainScene() override;
+	CreateScene();
+	virtual ~CreateScene() override;
 
+public:
 	// Scene을(를) 통해 상속됨
 	void Update() override;
 };

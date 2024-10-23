@@ -1,6 +1,5 @@
 #include "Header.h"
 
-
 int main() {
-	SceneManager::GetInstance().LoadScene("테스트 1");
+	SceneManager::GetInstance().LoadScene("메인 메뉴");
 }

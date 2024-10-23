@@ -18,7 +18,7 @@ private:
 public:
 	Circle();
 	Circle(const Point& _center, const Point& _end);
-	Circle(const Circle& _other) = default;
+	Circle(const Circle& _other);
 	virtual ~Circle() override;
 
 	/// <summary>
