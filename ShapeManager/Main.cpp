@@ -1,5 +1,6 @@
-#include "Console.h"
+#include "Header.h"
+
 
 int main() {
-	Console::Write("안녕하세요");
+	SceneManager::GetInstance().LoadScene("테스트 1");
 }

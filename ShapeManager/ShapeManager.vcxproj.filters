@@ -15,37 +15,41 @@
     <ClInclude Include="Menu.h">
       <Filter>Utilis</Filter>
     </ClInclude>
-    <ClInclude Include="Console.h">
+    <ClInclude Include="DrawUtility.h">
       <Filter>Utilis</Filter>
     </ClInclude>
     <ClInclude Include="Shape.h">
       <Filter>Shapes</Filter>
     </ClInclude>
-    <ClInclude Include="Scene.h">
-      <Filter>Scenes</Filter>
-    </ClInclude>
-    <ClInclude Include="SceneManager.h">
-      <Filter>Scenes</Filter>
-    </ClInclude>
-    <ClInclude Include="Singleton.h">
-      <Filter>Utilis</Filter>
+    <ClInclude Include="Point.h">
+      <Filter>Shapes</Filter>
     </ClInclude>
     <ClInclude Include="Circle.h">
       <Filter>Shapes</Filter>
     </ClInclude>
-    <ClInclude Include="Point.h">
+    <ClInclude Include="Rectangle.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
       <Filter>Shapes</Filter>
     </ClInclude>
     <ClInclude Include="Triangle.h">
       <Filter>Shapes</Filter>
     </ClInclude>
-    <ClInclude Include="Quadrangle.h">
-      <Filter>Shapes</Filter>
+    <ClInclude Include="Scene.h">
+      <Filter>Scenes</Filter>
     </ClInclude>
-    <ClInclude Include="ShapeManager.h">
-      <Filter>Shapes</Filter>
+    <ClInclude Include="Header.h" />
+    <ClInclude Include="MainScene.h">
+      <Filter>Scenes</Filter>
     </ClInclude>
-    <ClInclude Include="MenuSelector.h">
+    <ClInclude Include="TestScene1.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene2.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
       <Filter>Utilis</Filter>
     </ClInclude>
   </ItemGroup>
@@ -54,35 +58,38 @@
       <Filter>Utilis</Filter>
     </ClCompile>
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="Console.cpp">
+    <ClCompile Include="DrawUtility.cpp">
       <Filter>Utilis</Filter>
     </ClCompile>
-    <ClCompile Include="Scene.cpp">
-      <Filter>Scenes</Filter>
-    </ClCompile>
-    <ClCompile Include="SceneManager.cpp">
-      <Filter>Scenes</Filter>
+    <ClCompile Include="Point.cpp">
+      <Filter>Shapes</Filter>
     </ClCompile>
     <ClCompile Include="Circle.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
       <Filter>Shapes</Filter>
     </ClCompile>
     <ClCompile Include="Triangle.cpp">
       <Filter>Shapes</Filter>
     </ClCompile>
-    <ClCompile Include="Quadrangle.cpp">
-      <Filter>Shapes</Filter>
-    </ClCompile>
-    <ClCompile Include="MenuSelector.cpp">
-      <Filter>Utilis</Filter>
-    </ClCompile>
-    <ClCompile Include="ShapeManager.cpp">
-      <Filter>Shapes</Filter>
-    </ClCompile>
-    <ClCompile Include="Point.cpp">
-      <Filter>Shapes</Filter>
-    </ClCompile>
     <ClCompile Include="Shape.cpp">
       <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene1.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene2.cpp">
+      <Filter>Scenes</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

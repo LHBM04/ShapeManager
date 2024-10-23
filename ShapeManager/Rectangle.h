@@ -1,17 +1,12 @@
 #pragma once
 
-#include <format>
-
-#include "Point.cpp"
-#include "Shape.h"
-
-class Quadrangle : public Shape {
+class Rectangle final : public Shape {
 private:
 	/// <summary>
 	/// 첫번째 꼭짓점.
 	/// </summary>
 	Point m_vertex1;
-
+	
 	/// <summary>
 	/// 두번째 꼭짓점.
 	/// </summary>
@@ -28,14 +23,16 @@ private:
 	Point m_vertex4;
 
 public:
-	Quadrangle(const Point& _first, const Point& _second);
-	Quadrangle(const Point& _first, const Point& _second, const Point& third, const Point& _fourth);
-	Quadrangle(const Quadrangle& _other);
+	Rectangle();
+	Rectangle(const Point& _first, const Point& _second);
+	Rectangle(const Point& _first, const Point& _second, const Point& third, const Point& _fourth);
+	Rectangle(const Rectangle& _other);
+	virtual ~Rectangle() override;
 
 public:
-	// Shape을(를) 통해 상속됨
-	const double GetSize() const override;
-
+	const double GetArea() const;
 	// Shape을(를) 통해 상속됨
 	void Display() const override;
+
 };
+

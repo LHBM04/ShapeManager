@@ -1,30 +1,26 @@
 #pragma once
 
-#include <limits>
-
 /// <summary>
 /// 점.
 /// </summary>
-class Point {
+class Point final {
 private:
 	/// <summary>
 	/// 오른쪽 점.
 	/// </summary>
-	double m_x{ 0 };
+	double m_x;
 
 	/// <summary>
 	/// 왼쪽 점.
 	/// </summary>
-	double m_y{ 0 };
+	double m_y;
 
 public:
-	Point() = delete;
+	Point();
+	Point(const int _right, const int _left);
 	Point(const double& _right, const double& _left);
-	Point(const Point& _other);
+	Point(const Point& _other) = default;
 	~Point();
-
-	const bool operator == (const Point& _other) const;
-	const bool operator != (const Point& _other) const;
 
 public:
 	/// <summary>
@@ -39,3 +35,4 @@ public:
 	/// <returns></returns>
 	const double& GetY() const;
 };
+
