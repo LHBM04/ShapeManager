@@ -48,7 +48,7 @@ void ShapeManager::DestroyShape() {
 		std::cin >> index;
 		DrawUtility::ClearBufferCPP();
 
-		if (index <= 0 || index > this->m_count) {
+		if (index > this->m_count) {
 			DrawUtility::WriteLine("올바른 인덱스가 아닙니다!");
 			continue;
 		}
