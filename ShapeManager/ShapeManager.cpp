@@ -42,7 +42,7 @@ void ShapeManager::DestroyShape() {
 
 	this->Display();
 
-	unsigned int index = 0;
+	size_t index = 0;
 	while (true) {
 		DrawUtility::Write("삭제할 도형의 인덱스 번호를 입력해주세요. ==> ");
 		std::cin >> index;
@@ -53,8 +53,15 @@ void ShapeManager::DestroyShape() {
 			continue;
 		}
 
-		if (this->m_shapes[(index - 1)] != nullptr) {
-			delete this->m_shapes[(index - 1)];
+		if (this->m_shapes[index] != nullptr) {
+			delete this->m_shapes[index];
+			this->m_shapes[index] = nullptr;
+
+			for (size_t i = index; i < this->m_count - 1; ++i) {
+				this->m_shapes[i] = this->m_shapes[i + 1];
+			}
+
+			this->m_shapes[this->m_count--] = nullptr;
 			DrawUtility::Write("해당 도형이 삭제되었습니다! 계속하려면 아무 키나 눌러주세요...");
 			std::cin.get();
 			return;
